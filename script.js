@@ -46,7 +46,6 @@ main.appendChild(userList);
 
 (async () => {
   url = 'https://reqres.in/api/users';
-
   apiRequest = await fetch(url);
   usersData = await apiRequest.json();
 
